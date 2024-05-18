@@ -3,7 +3,7 @@ b = Math.floor((Math.random() * 7 + 1));
 c = Math.floor((Math.random() * 7 + 1));
 let balance = 5000
 let stavka = 1000
-
+//pivo
 // let result = [];
 // result[0] = 'visnya.jpg'
 // result[1] = 'podkova.jpg'
