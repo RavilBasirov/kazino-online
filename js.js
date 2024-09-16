@@ -14,10 +14,10 @@ let vigrish
 // resolt[5] = 'dollar.jpg'
 // result[6] = 'seven.jpg'
 
-if (a = b, a = c, c = b) {
+if (a == b, a == c, c == b) {
     vigrish = 1000
 };
-if (a = b = c) {
+if (a == b == c) {
     vigrish = stavka + stavka + stavka
 };
 
