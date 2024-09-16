@@ -3,7 +3,8 @@ b = Math.floor((Math.random() * 7 + 1));
 c = Math.floor((Math.random() * 7 + 1));
 let balance = 5000
 let stavka = 1000
-//pivo
+let vigrish
+
 // let result = [];
 // result[0] = 'visnya.jpg'
 // result[1] = 'podkova.jpg'
@@ -14,16 +15,16 @@ let stavka = 1000
 // result[6] = 'seven.jpg'
 
 if (a = b, a = c, c = b) {
-    balance = balance + stavka
+    vigrish = 1000
 };
 if (a = b = c) {
-    balance = balance + stavka + stavka
+    vigrish = stavka + stavka + stavka
 };
 
 if (a != b, a != c, c != b) {
-    balance = balance - stavka
+    vigrish = -stavka
 };
 
 console.log(a + " " + b + " " + c);
 
-console.log('Вы выйграли!, ваш баланс -', balance);
+console.log("Вы выйграли!" + vigrish + ", ваш баланс -", + balance);
