@@ -1,5 +1,10 @@
+#logo {
+	width: 5%;
+	height: 5%;
+}
+
 .interesting {
-	background: linear-gradient(45deg, yellow, violet);
+	background-image: linear-gradient(45deg, yellow, violet);
 }
 
 .emoji {
@@ -36,4 +41,30 @@
 
 .color {
 	color: rgb(255, 255, 255);
+}
+
+footer {
+	background-color: black;
+}
+
+.footer-info {
+	color: rgb(68, 68, 68);
+	font-size: 12pt;
+	text-align: left;
+	padding-left: 0%;
+	padding-right: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 100%;
+	margin: 0;
+}
+
+#telegram {
+	width: 2%;
+	height: 2%;
+	fill: rgb(68, 68, 68);
+}
+
+#telegram:hover {
+	fill: white	;
 }
