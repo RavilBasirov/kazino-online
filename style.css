@@ -3,6 +3,26 @@
 	height: 5%;
 }
 
+.over-lay {
+	position: absolute;
+	background: rgba(228, 14, 88, 0.5);
+	min-width: 100%;
+	min-height: 100%;
+}
+
+header {
+	background-image: url(../kazino-online/img/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.description {
+	position: absolute;
+	color: blue;
+	font-size: 20pt;
+	margin-top: 5%;
+}
+
 .interesting {
 	background-image: linear-gradient(45deg, yellow, violet);
 }
@@ -31,15 +51,23 @@
 	color: #111;
 }
 
+.over-lay_background-color {
+	background-color: #000;
+}
+
 .blue {
-	color:#777228
+	color:blue
 }
 
 #submit {
 	margin-top: 5%;
 }
 
-.color {
+.feedback_form_background-color {
+	background-color: rgb(24, 24, 24);
+}
+
+.feedback_form_text_color  {
 	color: rgb(255, 255, 255);
 }
 
@@ -59,12 +87,12 @@ footer {
 	margin: 0;
 }
 
-#telegram {
+#whatsapp {
 	width: 2%;
 	height: 2%;
 	fill: rgb(68, 68, 68);
 }
 
-#telegram:hover {
+#whatsapp:hover {
 	fill: white	;
 }

@@ -1,3 +1,7 @@
+$(document).ready(
+    () => $("header").height($(window).height())
+);
+
 a = Math.floor((Math.random() * 7 + 1));
 b = Math.floor((Math.random() * 7 + 1));
 c = Math.floor((Math.random() * 7 + 1));
