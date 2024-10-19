@@ -3,7 +3,7 @@
 	height: 5%;
 }
 
-.over-lay {
+.overlay {
 	position: absolute;
 	background: rgba(228, 14, 88, 0.5);
 	min-width: 100%;
@@ -16,8 +16,37 @@ header {
 	background-attachment: fixed;
 }
 
-.description {
+section {
+	size: 400px;
+}
+
+.active {
+	justify-content: space-between;
+}
+
+.jopa {
 	position: absolute;
+	background: rgba(0, 0, 0, 0.7);
+	min-width: 10%;
+	min-height: 10%;
+	margin-top: 20%;
+	margin-left: 10%;
+	margin-right: 20%;
+
+}
+
+.text_in_overlay {
+	text-align: center;
+	color: rgb(255, 0, 0);	
+}
+
+.ruletka {
+	margin-top: 10%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.description {
 	color: blue;
 	font-size: 20pt;
 	margin-top: 5%;
