@@ -3,21 +3,32 @@
 	height: 5%;
 }
 
-.overlay {
-	position: absolute;
-	background: rgba(228, 14, 88, 0.5);
-	min-width: 100%;
-	min-height: 100%;
-}
-
-header {
+body{
 	background-image: url(../kazino-online/img/background.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
 
+.overlay {
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+}
+
 section {
-	size: 400px;
+	width: 80%;
+	height: 400px;
+	margin-left: 10%;
+}
+
+.carousel-inner {
+	width: 80%;
+	margin-left: 10%;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.slides {
+	margin-left: 25%;
 }
 
 .active {
@@ -27,11 +38,9 @@ section {
 .jopa {
 	position: absolute;
 	background: rgba(0, 0, 0, 0.7);
-	min-width: 10%;
-	min-height: 10%;
 	margin-top: 20%;
-	margin-left: 10%;
-	margin-right: 20%;
+	width: 80%;
+	padding-left: 20%;
 
 }
 
@@ -54,6 +63,8 @@ section {
 
 .interesting {
 	background-image: linear-gradient(45deg, yellow, violet);
+	width: 80%;
+	height: 20%;
 }
 
 .emoji {
@@ -78,6 +89,7 @@ section {
 .feedback { /* третий экран */
 	background: #000; 
 	color: #111;
+	height: 20%;
 }
 
 .over-lay_background-color {
