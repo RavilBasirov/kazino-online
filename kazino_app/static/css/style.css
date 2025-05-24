@@ -1,0 +1,124 @@
+#logo {
+	width: 20%;
+	height: 20%;
+}
+
+
+
+.header {
+	border: dashed red;
+}
+
+.nav-item {
+	background-color: white;
+}
+
+
+
+.active {
+	justify-content: space-between;
+}
+
+
+
+.text_in_overlay {
+	text-align: center;
+	color: rgb(255, 0, 0);	
+}
+
+
+
+.description {
+	color: blue;
+	font-size: 20pt;
+	margin-top: 10%;
+} 	
+
+.interesting {
+	width: 80%;
+	height: 20%;
+}
+
+.emoji {
+	font-size: 35px;
+}
+
+.title {
+	padding-top: 5%;
+	padding-bottom: 5% ;
+}
+
+.interesting {
+	margin-left: 10%;
+}
+
+.title_main {
+	font-size: 32px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+}
+
+.title_text {
+	font-size: 20px;
+    text-align: center;
+	color: rgb(0, 0, 0);
+}
+	
+.feature__title {
+	color: rgb(0, 0, 0)
+}
+
+.feature__text {
+	color: rgb(0, 0, 0);
+}
+
+
+.navbar-text {
+	color: white;
+}
+
+.blue {
+	color:blue
+}
+
+#telegram {
+	margin-left: 20%;
+}
+
+#submit {
+	margin-top: 5%;
+}
+
+.games_text {
+	text-align: center;
+}
+
+.feedback_form_text_color  {
+	color: rgb(0, 0, 0);
+	margin-left: 20%;
+}
+
+footer {
+	background-color: black;
+}
+
+.footer-info {
+	font-size: 12pt;
+	text-align: left;
+	padding-left: 0%;
+	padding-right: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 100%;
+	margin: 0;
+}
+
+#whatsapp {
+	width: 2%;
+	height: 2%;
+	fill: rgb(68, 68, 68);
+}
+
+#whatsapp:hover {
+	fill: rgb(255, 0, 0)	;
+}
